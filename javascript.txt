@@ -59,3 +59,12 @@ console.log(findNumber);
 
 const findIndexNumber = numbers.findIndex((num) => num > 10);
 console.log(findIndexNumber);
+
+
+####################### Destructuring #######################################
+
+// allows us to assign names to values, give them meaning, like a dictionary
+// red is mapped to 12, green to 38, and blue to 23
+const [red, blue, green] = [12, 23, 38];
+console.log(green); // 38
+console.log(red); // 12
